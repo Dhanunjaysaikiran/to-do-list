@@ -91,7 +91,6 @@ body button {
   height: 50%;
   width: 100%;
   border-bottom: 1px solid #5c5c5c;
-  opacity: 80%;
   box-sizing: border-box;
   padding: 20px;
 }
@@ -135,4 +134,7 @@ body button {
   border-radius: 5px;
   font-size: 1rem;
   border: none;
+}
+.title{
+  color: #ffff;
 }
