@@ -75,7 +75,7 @@ function App() {
 
       <div className='gridbox'>
 
-        {tasks.sort((a, b) => a.id > b.id ? 1 : -1).slice(0,50).map((tasks) => {
+        {tasks.sort((a, b) => a.id > b.id ? 1 : -1).map((tasks) => {
           return (
             <div className='cont' key={tasks.id}>
               <div className='box'>
