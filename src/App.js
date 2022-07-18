@@ -84,7 +84,7 @@ function App() {
                 <div className={tasks.completed ? 'done' : 'rec'}>
                   <div className={tasks.completed ? 'tick' : 'hidden'}>✓</div>
                   <div className='top'>
-                    <span> {tasks.title}</span>
+                    <span className='title'> {tasks.title}</span>
                   </div>
                   <div className='bot'>
 
