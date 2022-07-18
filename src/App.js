@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react';
 function App() {
   const [tasks, setData] = useState([])
   useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/todos").then((result) => {
+    fetch('https://jsonplaceholder.typicode.com/todos').then((result) => {
       result.json().then((resp) => {
         setData(resp)
       })
