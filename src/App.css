@@ -1,0 +1,138 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+body button {
+  cursor: pointer;
+}
+.todo {
+  padding: 30px 90px 30px 90px;
+  box-sizing: border-box;
+}
+.head {
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sub {
+  margin-bottom: 30px;
+}
+.textbar {
+  width: 50%;
+  height: 2rem;
+  background-color: gray;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.update {
+  height: 2.5rem;
+  margin-left: 2rem;
+  width: 10rem;
+  background-color: #c620a7;
+  color: white;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+}
+.flex {
+  margin-bottom: 30px;
+}
+.gridbox {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  color: white;
+}
+.cont {
+  margin-top: 2rem;
+}
+.right {
+  margin-right: 5px;
+}
+.rec {
+  background-color: #2f2f2f;
+  width: 350px;
+  min-height: 6rem;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 0px 16px rgb(0, 0, 0));
+  border-radius: 8px;
+}
+.done {
+  background-color: #202020;
+  width: 350px;
+  min-height: 6rem;
+  box-sizing: border-box;
+  border: 1px solid #7aba30;
+  border-radius: 8px;
+  position: relative;
+}
+.tick {
+  position: absolute;
+  top: 2rem;
+  right: -12px;
+  background-color: #7aba30;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hidden {
+  display: none;
+}
+.box {
+  display: flex;
+}
+.top {
+  height: 50%;
+  width: 100%;
+  border-bottom: 1px solid #5c5c5c;
+  opacity: 80%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.bot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.click {
+  background-color: #c620a7;
+  color: white;
+  border-radius: 2px;
+  border: none;
+  padding: 8px 24px 8px 24px;
+  cursor: pointer;
+}
+.click2 {
+  cursor: pointer;
+  color: #afafaf;
+}
+
+.click:active,
+.click2:active {
+  font-size: 12px;
+}
+.del {
+  cursor: pointer;
+}
+.del:hover {
+  color: #c620a7;
+}
+.cancel {
+  height: 2.5rem;
+  margin-left: 2rem;
+  width: 10rem;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: none;
+}
